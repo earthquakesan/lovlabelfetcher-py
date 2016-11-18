@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'lovlabelfetcherpy',
   packages = ['lovlabelfetcherpy'], # this must be the same as the name above
-  version = 'v1.0',
+  version = 'v1.0.1',
   description = 'LOV Label Fetcher',
   author = 'Ivan Ermilov',
   author_email = 'ivan.s.ermilov@gmail.com',
