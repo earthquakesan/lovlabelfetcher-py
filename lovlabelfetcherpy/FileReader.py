@@ -1,12 +1,7 @@
 # -*- coding: utf-8 -*-
 """FileReader for reading files in utf-8."""
 
-
 import codecs
-
-from .Logger import get_logger
-
-LOGGER = get_logger(__name__)
 
 
 class FileReader(object):
@@ -14,14 +9,7 @@ class FileReader(object):
 
     def __init__(self, filepath):
         """Initialize FileReader with filepath."""
-        try:
-            self.file = codecs.open(filepath, "r", "utf-8")
-        except Exception as exception:
-            LOGGER.error(
-                "File read error at %s: %s",
-                filepath,
-                str(exception)
-            )
+        self.file = codecs.open(filepath, "r", "utf-8")
 
     def readlines(self):
         """Read the entire file."""
