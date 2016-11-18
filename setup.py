@@ -7,7 +7,7 @@ setup(
   author = 'Ivan Ermilov',
   author_email = 'ivan.s.ermilov@gmail.com',
   url = 'https://github.com/earthquakesan/lovlabelfetcher-py', # use the URL to the github repo
-  download_url = 'https://github.com/earthquakesan/lovlabelfetcher-py/archive/v1.0.tar.gz', 
+  download_url = 'https://github.com/earthquakesan/lovlabelfetcher-py/archive/v1.0.1.tar.gz', 
   keywords = ['aksw', 'semantic-web'], # arbitrary keywords
   classifiers = [],
 )
